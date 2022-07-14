@@ -17,12 +17,13 @@
 	</organization>
 
 	<properties>
-		<jdk.version>1.8</jdk.version>
+		<!-- <jdk.version>1.8</jdk.version>  -->
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>https://sonarcloud.io/project/configuration?id=com.kvk_soln</sonar.host.url>
+		<sonar.host.url>https://sonarcloud.io/</sonar.host.url>
                 <sonar.login>08ee4c45f9c48afb017ad9d2e3b459587f71cca8</sonar.login>
+		<sonar.organisation>KvK Sonar Server</sonar.organisation>
 		
              
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -93,7 +94,7 @@
 		</dependency>
 		
 	</dependencies>
-	
+	<!--
 	<distributionManagement>
 	
 	    <repository>
@@ -108,7 +109,7 @@
 	      <url>http://43.204.144.34:9980/mithuntechnologies/repository/walmart-snapshot/</url>
 	    </snapshotRepository>
 	    
-	</distributionManagement>
+	</distributionManagement>-->
 	
 	<build>
 		<finalName>maven-web-application</finalName>
