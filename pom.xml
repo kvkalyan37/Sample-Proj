@@ -48,13 +48,6 @@
 			<artifactId>json</artifactId>
 			<version>20160212</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
-		<dependency>
-		    <groupId>org.sonarsource.scanner.maven</groupId>
-		    <artifactId>sonar-maven-plugin</artifactId>
-		    <version>3.0.2</version>
-		</dependency>
-
 		
 		<!-- test dependencies -->
 		<dependency>
@@ -127,7 +120,6 @@
 	    </snapshotRepository>
 	    
 	</distributionManagement>
-
 	
 	<build>
 		<finalName>maven-web-application</finalName>
@@ -138,12 +130,11 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.3</version>
 				<configuration>
-					 <fork>true</fork>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
 				</configuration>
 			</plugin>
-			
+
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
@@ -167,12 +158,9 @@
 					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
-			<plugin>
-			    <groupId>org.codehaus.mojo</groupId>
-			    <artifactId>sonar-maven-plugin</artifactId>
-			    <version>3.0.2</version>
-			</plugin>
-		</plugins>
-		
+			
+</plugins>
 	</build>
+	
+	
 </project>
