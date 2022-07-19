@@ -158,10 +158,7 @@
 					<wtpversion>2.0</wtpversion>
 					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
-			</plugin>
-			
-</plugins>
+			</plugin>		
+		</plugins>
 	</build>
-	
-	
 </project>
