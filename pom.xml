@@ -31,7 +31,12 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
-
+	<repositories>
+		<repository>
+			<id>nexus</id>
+			<url>http://3.111.214.133:8081/repository/Sample_Proj_Group_Repo/</url>
+		</repository>
+	</repositories>	
 	<dependencies>
 		
 		<dependency>
@@ -96,23 +101,22 @@
 		
 	</dependencies>
 	
-	<!--
 	<distributionManagement>
 	
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.119.31:9980/mithuntechnologies/repository/walmart-release/</url>
+	      <url>http://3.111.214.133:8081/repository/Sample_Proj_Release_Repo/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.119.31:9980/mithuntechnologies/repository/walmart-snapshot/</url>
+	      <url>http://3.111.214.133:8081/repository/Sample_Proj_Snapshot_Repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
-	-->
+
 	
 	<build>
 		<finalName>maven-web-application</finalName>
