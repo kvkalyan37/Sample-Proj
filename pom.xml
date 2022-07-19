@@ -130,6 +130,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.3</version>
 				<configuration>
+					 <fork>true</fork>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
 				</configuration>
