@@ -14,19 +14,19 @@
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/mithunlogo.jpg" alt="" width="100">
+		<img src="images/kv_logo.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
 		
-		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
+		<a href="mailto:KVK Solns@gmail.com">Mail to KVK Solns</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2021 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> </small></p>
+<p align=center>KVK Solns - Consultant, Training, Development Center.</p>
+<p align=center><small>Copyrights 2022 by <a href="http://KVK Solns.com/">KVK Solns</a> </small></p>
 
 </body>
 </html>
