@@ -9,8 +9,8 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to KVK Solns - GitHub Webhook Demo  .....</h1>
-<h2 align="center"> Welcome to KVK Solns .......We have a DevOps Master Program.</h2>
+<h1 align="center">Welcome to KVK Solutions - GitHub Webhook Demo  .....</h1>
+<h2 align="center"> Welcome to KVK Solutions .......We have a DevOps Master Program.</h2>
 <hr>
 <div style="text-align: center;">
 	<span>
