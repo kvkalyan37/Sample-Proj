@@ -21,15 +21,17 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>https://sonarcloud.io/</sonar.host.url>
-                <sonar.login>6ddf8d0ab2bf24d6b76ae1c6f98345358174326f</sonar.login>
+		<sonar.host.url>http://localhost:9000/</sonar.host.url>
+                <sonar.login>squ_6426f64630bfbb866a465e7ccb4eb50c41e5a682</sonar.login>
+		<sonar.projectKey>KvK-Solns</sonar.projectKey>		
 		<!--
+		Git Token--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
 		<sonar.login>sonar</sonar.login>
 		<sonar.password>sonar</sonar.password>
-		-->
+		
 		<sonar.organization>sonarserver</sonar.organization>
 		<sonar.projectKey>SonarServer</sonar.projectKey>
-		
+		-->
              
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -38,7 +40,7 @@
 	<repositories>
 		<repository>
 			<id>nexus</id>
-			<url>http://3.110.160.214:8081/repository/Sample_Proj_Group_Repo/</url>
+			<url>http://localhost:8081/repository/Sample_Proj_Group_Repo/</url>
 		</repository>
 	</repositories>	
 	<dependencies>
@@ -110,13 +112,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.110.160.214:8081/repository/Sample_Proj_Release_Repo/</url>
+	      <url>http://localhost:8081/repository/Sample_Proj_Release_Repo/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.110.160.214:8081/repository/Sample_Proj_Snapshot_Repo/</url>
+	      <url>http://localhost:8081/repository/Sample_Proj_Snapshot_Repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
