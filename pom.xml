@@ -25,7 +25,7 @@
                 <sonar.login>squ_6426f64630bfbb866a465e7ccb4eb50c41e5a682</sonar.login>
 		<sonar.projectKey>KvK-Solns</sonar.projectKey>		
 		<!--
-		Git Token--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
+		Git Token==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
 		<sonar.login>sonar</sonar.login>
 		<sonar.password>sonar</sonar.password>
 		
