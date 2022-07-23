@@ -23,7 +23,7 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://localhost:9000/</sonar.host.url>
-                <sonar.login>squ_6426f64630bfbb866a465e7ccb4eb50c41e5a682</sonar.login>
+                <sonar.login>squ_9ae8e6e6153412426568ede21654a4518df9dd0b</sonar.login>
 		<sonar.projectKey>KvK-Solns</sonar.projectKey>		
 		<!--
 		Git Token==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
