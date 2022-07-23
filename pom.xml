@@ -40,7 +40,7 @@
 	</properties>
 	<repositories>
 		<repository>
-			<id>nexus</id>
+			<id>NexusServer</id>
 			<url>http://localhost:8081/repository/Sample_Proj_Group_Repo/</url>
 		</repository>
 	</repositories>	
@@ -111,13 +111,13 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus</id>
+	      <id>NexusServer</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	      <url>http://localhost:8081/repository/Sample_Proj_Release_Repo/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
+	      <id>NexusServer</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://localhost:8081/repository/Sample_Proj_Snapshot_Repo/</url>
 	    </snapshotRepository>
@@ -133,7 +133,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.3</version>
 				<configuration>
-					 <fork>true</fork>
+					 <!-- <fork>true</fork> -->
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
 				</configuration>
@@ -162,9 +162,6 @@
 					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
-			
-</plugins>
-	</build>
-	
-	
+		</plugins>
+	</build>	
 </project>
