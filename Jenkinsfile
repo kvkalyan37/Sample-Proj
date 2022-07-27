@@ -1,7 +1,7 @@
 node
 {
     //Global Properties
-    properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '1', daysToKeepStr: '', numToKeepStr: '3')), [$class: 'JobLocalConfiguration', changeReasonComment: ''], pipelineTriggers([githubPush(), pollSCM('* * * * *')])])
+    properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '1', daysToKeepStr: '', numToKeepStr: '10')), [$class: 'JobLocalConfiguration', changeReasonComment: ''], pipelineTriggers([githubPush(), pollSCM('* * * * *')])])
     buildName '${JOB_NAME}--BuildNo:${BUILD_NUMBER}'
     //Global Variables
     def MavenHome = tool name: "Maven-v3.8.6"
